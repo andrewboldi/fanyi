@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Dictionary",
+    "version": "0.0.1",
+    "action": {
+        "default_title": "Dictionary"
+    },
+    "description": "Select a word on the webpage and open popup to instantly look up in the dictionary",
+    "author": "us",
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["content.js"]
+        }
+      ],
+      "permissions": [
+        "activeTab"
+      ]
+}
