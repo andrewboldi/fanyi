@@ -1,0 +1,20 @@
+{
+  "name": "fanyi",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@vespaiach/axios-fetch-adapter": "^0.3.1",
+    "chatgpt": "^5.2.5",
+    "crypto": "^1.0.1",
+    "events": "^3.3.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  }
+}
